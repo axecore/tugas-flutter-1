@@ -66,7 +66,7 @@ class DetailPostPage extends StatelessWidget {
                     onPressed: () {
                       // Logika like post
                       ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(content: Text('Liked this post!')),
+                        SnackBar(content: Text('Liked...')),
                       );
                     },
                     icon: Icon(Icons.thumb_up),
@@ -80,7 +80,7 @@ class DetailPostPage extends StatelessWidget {
                     onPressed: () {
                       // Navigasi ke halaman komentar
                       ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(content: Text('Going to Comments...')),
+                        SnackBar(content: Text('Comments...')),
                       );
                     },
                     icon: Icon(Icons.comment),
